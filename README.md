@@ -113,7 +113,7 @@ var_dump( $timer->diff( 'Mark 1', $timer->{'Mark 10'} ) ); // -> float(0.152)
 
 Install via composer
 
-`# composer require Microtimer\microtimer`
+`# composer require microtimer\microtimer`
 
 Alternatively, just copy `src/Microtimer.php` in your project and include it.
 
