@@ -1,0 +1,23 @@
+{
+    "name": "microtimer/microtimer",
+    "description": "The primary purpose of Microtimer is measuring time elapsed between two points (marks). On top of that you can pass extra data when marking a point in time, get a mark by key, or get all marks, or get a subset of marks. You can also measure a time between any arbitary mark or a timestamp.",
+    "keywords": [ "timer", "profiling", "timing", "timestamp", "stopwatch", "performance" ],
+    "homepage": "https://github.com/rinatkhaziev/microtimer",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rinat Khaziev",
+            "email": "rinat.khaziev@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Microtimer\\": "src/"
+        }
+    }
+}
